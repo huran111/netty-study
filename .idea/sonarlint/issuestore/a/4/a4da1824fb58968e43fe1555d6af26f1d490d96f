@@ -1,0 +1,10 @@
+
+W
+java:S1854C":Remove this useless assignment to local variable "future".(µ°«8€øÍ¼.
+X	java:S125S"<This block of commented-out lines of code should be removed.(Ö“‚…8€øÍ¼.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(©²ø´ûÿÿÿÿ8€øÍ¼.
+X	java:S125D"<This block of commented-out lines of code should be removed.(Ö“‚…8€øÍ¼.
+H
+java:S1481C"+Remove this unused "future" local variable.(µ°«8€øÍ¼.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(×üÏşÿÿÿÿ8€øÍ¼.
+]	java:S125I"<This block of commented-out lines of code should be removed.(û£º½ıÿÿÿÿ8€øÍ¼.

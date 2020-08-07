@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(½Çäÿÿÿÿÿÿ8‚¢ÒŽ¼.
+R
+java:S2446 "0"notify" may not wake up the appropriate thread.(±ŒÝÿûÿÿÿÿ8‚¢ÒŽ¼.
+\
+java:S2274*":Remove this call to "wait" or move it into a "while" loop.(âæÁ×ýÿÿÿÿ8‚¢ÒŽ¼.
+Q
+java:S3740"/Provide the parametrized type for this generic.(žŽ„œüÿÿÿÿ8‚¢ÒŽ¼.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(­†›½8„ÝçŽ¼.
