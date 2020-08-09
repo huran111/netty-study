@@ -1,13 +1,12 @@
-package netty.guigu.netty;
+package netty.guigu.netty.socket;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.channel.socket.nio.NioSocketChannel;
-
-import java.net.Socket;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 
 /**
  * @program: netty-study
@@ -25,6 +24,9 @@ public class NettyServer01 {
                 .channel(NioServerSocketChannel.class)
                 //设置线程队列得到的连接个数
                 .option(ChannelOption.SO_BACKLOG, 128).childOption(ChannelOption.SO_KEEPALIVE, true)
+                //netty日志处理器
+                .handler(new LoggingHandler(LogLevel.INFO))//该handler对应的是bossGroup
+                //childHandler 对应的是workGroup
                 .childHandler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel socketChannel) throws Exception {

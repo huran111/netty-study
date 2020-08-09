@@ -1,12 +1,17 @@
-package netty.guigu.netty;
+package netty.guigu.netty.socket;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelPipeline;
 import io.netty.util.CharsetUtil;
+import io.netty.util.concurrent.Future;
+import io.netty.util.concurrent.GenericFutureListener;
+import io.netty.util.concurrent.ScheduledFuture;
 
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -47,13 +52,31 @@ public class NettyServerHandler01 extends ChannelInboundHandlerAdapter {
 //                ctx.writeAndFlush(Unpooled.copiedBuffer("hello,客户端 喵喵3.".getBytes()));
 //            }
 //        });
+
         // 用户提交定时任务
-        ctx.channel().eventLoop().schedule(new Runnable() {
+        final ScheduledFuture<?> schedule = ctx.channel().eventLoop().schedule(new Runnable() {
             @Override
             public void run() {
-                ctx.writeAndFlush(Unpooled.copiedBuffer("hello,客户端 喵喵4.".getBytes()));
+                System.out.println("run");
+                final ChannelFuture future = ctx.writeAndFlush(Unpooled.copiedBuffer("hello,客户端 喵喵4.".getBytes()));
+                final ChannelFuture future1 = future.addListener(new GenericFutureListener<Future<? super Void>>() {
+                    @Override
+                    public void operationComplete(Future<? super Void> future) throws Exception {
+                        System.out.println("isDone:"+future.isDone());
+                        System.out.println("isSuccess:"+future.isSuccess());
+                    }
+                });
+//                try {
+//                    System.out.println("get start");
+//                 //   future1.get();
+//                    System.out.println("get end");
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                } catch (ExecutionException e) {
+//                    e.printStackTrace();
+//                }
             }
-        },2,TimeUnit.SECONDS);
+        }, 10, TimeUnit.SECONDS);
         System.out.println("server ctx=" + ctx);
         System.out.println("服务端读取线程:" + Thread.currentThread().getName());
         final ChannelPipeline pipeline = ctx.pipeline();
@@ -75,6 +98,7 @@ public class NettyServerHandler01 extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        System.out.println("exceptionCaught");
         ctx.channel().close();
     }
 }
