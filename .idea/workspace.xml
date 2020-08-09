@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c23164-fda9-40a5-ba62-6af7ad471aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/netty-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/MappedByteBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/NioClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/NioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/ScatteringAndGatheringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/groupchat/GroupCharClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/nio/groupchat/GroupCharServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/NewIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/NewIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/OldIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/OldIoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/BioBuffer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannelPutGet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ReadOnlyBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyClient01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyClientHandler01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyServer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyServerHandler01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty-study.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +70,7 @@
       <recent name="Netty.demo01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.guigu.netty" />
       <recent name="netty.guigu.zerocopy" />
       <recent name="netty.guigu.nio" />
       <recent name="netty.action.demo09" />
@@ -110,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OldIoClient">
+  <component name="RunManager" selected="Application.NettyClient01">
     <configuration name="GroupCharClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.guigu.nio.groupchat.GroupCharClient" />
       <module name="netty-study" />
@@ -124,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCharServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.nio.groupchat.GroupCharServer" />
+    <configuration name="NettyClient01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.NettyClient01" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.nio.groupchat.*" />
+          <option name="PATTERN" value="netty.guigu.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.nio.NioClient" />
+    <configuration name="NettyServer01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.NettyServer01" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.nio.*" />
+          <option name="PATTERN" value="netty.guigu.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,18 +160,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupCharClient" />
-      <item itemvalue="Application.GroupCharServer" />
-      <item itemvalue="Application.NioClient" />
       <item itemvalue="Application.OldIoClient" />
       <item itemvalue="Application.OldIOServer" />
+      <item itemvalue="Application.NettyServer01" />
+      <item itemvalue="Application.NettyClient01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OldIoClient" />
+        <item itemvalue="Application.NettyClient01" />
+        <item itemvalue="Application.NettyServer01" />
         <item itemvalue="Application.OldIOServer" />
+        <item itemvalue="Application.OldIoClient" />
         <item itemvalue="Application.GroupCharClient" />
-        <item itemvalue="Application.GroupCharServer" />
-        <item itemvalue="Application.NioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +195,8 @@
       <workItem from="1596680345259" duration="10192000" />
       <workItem from="1596712412568" duration="4441000" />
       <workItem from="1596806996040" duration="21000" />
-      <workItem from="1596847908414" duration="10222000" />
+      <workItem from="1596847908414" duration="15047000" />
+      <workItem from="1596940071109" duration="1343000" />
     </task>
     <servers />
   </component>
@@ -262,6 +245,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/Decoder.java</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/ChannelHandlerContext.class</url>
+          <line>24</line>
+          <properties class="io.netty.channel.ChannelHandlerContext" method="fireChannelRegistered">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
