@@ -131,3 +131,5 @@ i
 0src/main/java/netty/guide/demo04/TimeServer.java,a\0\a024df9cccc1a539e3ee8dd0b5d7e6bcef88d8f3
 `
 0src/main/java/netty/guide/demo04/TimeClient.java,7\e\7e3055fed473689d96ec0af29bfa8ec9622ecd3b
+a
+1src/main/java/netty/guigu/nio/ReadOnlyBuffer.java,4\e\4e8b51f23c805298f2ce767437a20f41727b7a7d
