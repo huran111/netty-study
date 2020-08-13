@@ -1,5 +1,0 @@
-
-[
-java:S4719$"9Replace charset name argument with StandardCharsets.UTF_8(Ë’™‚ýÿÿÿÿ8Û’ð™».
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç³€Ó8Û’ð™».
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8Û’ð™».

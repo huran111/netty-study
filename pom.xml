@@ -25,6 +25,7 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.12.4</version>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -47,6 +48,15 @@
             <version>1.7.25</version>
             <scope>test</scope>
         </dependency>
+=======
+        <!-- https://mvnrepository.com/artifact/org.msgpack/msgpack -->
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack</artifactId>
+            <version>0.6.12</version>
+        </dependency>
+
+>>>>>>> 925fe72e5a91f08534c20f71558b85883683bd72
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

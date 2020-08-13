@@ -17,10 +17,11 @@ public class MyClientChannelInitializer extends ChannelInitializer<NioSocketChan
 
         // 入站的 handler 进行解码
         pipeline.addLast("decoder", new MyByteToLongDecoder());
-        // 添加一个出站的 handler 对数据进行编码
-        pipeline.addLast("encoder", new MyLongToByteEncoder());
-
         // 添加自定义 handler，处理业务逻辑
         pipeline.addLast(new MyClientHandler());
+        // 添加一个出站的 handler 对数据进行编码
+        pipeline.addLast("encoder", new MyLongToByteEncoder());
+    System.out.println("x");
+
     }
 }
