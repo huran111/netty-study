@@ -1,5 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÖ½¶8¹îÂ¼.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ß«ğÒ8¹îÂ¼.
-W
-java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(ß«ğÒ8²Ã¼.

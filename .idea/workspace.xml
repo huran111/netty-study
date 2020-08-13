@@ -1,15 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09c23164-fda9-40a5-ba62-6af7ad471aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyByteToLongDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyLongToByteEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyServerHandler.java" afterDir="false" />
+    <list default="true" id="da323fcc-3bd0-4e40-b862-19ac45c3cf85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_msgpack_msgpack_0_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MessagePackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackEncode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/PerformTestUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/TestUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/netty-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/netty-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/069ea6b397fd9d44dc963830839626eac233c54c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07ce8e553c39e2f5d557992d26a1c13c1ab48460" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ea26be9352795c6e406634df2fe5a570c433ebf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fd5aff3433e89a869fab0a2642d03631b31be58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1063328e42c6bb3b8f5c4b936dba6811e239aca8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13c7f923a9e45f6cf474aa36a8807d9df7fcec1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b349bf3b0265a95cd05bfa1c440bd7a2d62973c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0ee1a049d3a659424875fe2809df158f510f8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b1a6b8e579f35120e4d2035f231bfb8a47d4958" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b71a35f31e648884770a7acb4f0ee5368094219" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2baa6193f9056dcc10213907902a691f6b80ef7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bf273a5a10a3bb0f22b2a87d727f01c69ab0fb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f9f5079a44f1938bd57392f9953170788dd2bd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c20dc584c3d92489b8fbb73689149f20f3a086c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c678e6f191eba0ac1c697a9843226ecac8e1f13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c898be8ec7f29dd0a47990a994a6428e488555b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dc188975e506423b01bc5719c9fa314f6b4710b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/465d69fba7275fe1385fd2bc8ad5626a5361cc70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a08c0607c8a074e5f774f9bf2f39f5dd26d448f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b5e9641a4042bcd373a38a4af1d3888a1f5812f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4be58a0279263129b6cf640cab39af37d88cff0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4da0d229cf5459b8b65f432a3817374153027459" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e8b51f23c805298f2ce767437a20f41727b7a7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/591a11345fe9478e40ac606c1819d0199b283f0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c4c01056c97df716bb77ff8b9a335a38c4ca30a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5da86af9314b00f059ce6db9b159fe9e66a2bfcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5db126543babfef1042ea444a682430e23bd3c27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f051065daa7358759d3e0ed2057658267fceb4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/621f7c6c3b57f1566ab2022717c46b9405579a32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72a425cc6d628385419810b5fa23f07e0c071670" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/784604548fa3538124a364092afdce517991ec9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78c1108551eea532cc6da1df6f69a6db56d360cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca352e4b1e3f365cd434d72d699bf39ce6841a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e3055fed473689d96ec0af29bfa8ec9622ecd3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/8155c6d3364a3b189dfde3e54efdf7bb566f878b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/821a67ba1eb837245a6bf81b9cba655dfce5c73a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86c72964d211b4eb7953a9c63243d5480bcbae65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87bf441a342d7b9a6ba4b4c1366b18b987daa75e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/8958c1298696a8d0edf7bb9aa5a418873c9b52a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8ce22ec8152dacbb5cf9567e0bc6278fe0188bec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9980b7fda8a96a04c5e9956839687f15ad96afe5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e697fbc86562d85cfafc1b09c4992e8dd73c6f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a024df9cccc1a539e3ee8dd0b5d7e6bcef88d8f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a22cc23fad0ada73a9932ddee44ecf682fb5b1c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a29889519363f0e5c48c3c3f4acfc926a4bc242c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4da1824fb58968e43fe1555d6af26f1d490d96f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7e8c0003762a9684aa599b6034d82ccffe8bc1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad777c69e679db34614753ab35992f591b7066d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afb1c7aaf29a8e3a6740e40e28a0f57b5894b12e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3ceb9ddbffa04267c4ff2f89ef4b37142719f43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7250f0c0d98c4e0aed7577cdffb42ba2f75853" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2f07def482174a813b92045f035f5ca5bbbfedd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4af0a2a54f8d68f726b76cf25e6e0321f84ca8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c967cf841d61586d1402740319c0343165ad1c2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c96f684b1718106772500dd9d6bbc82bcff10cc0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9755e1331586cfb7081d701936958c2be805fac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb2ff207665b1ed3e97200ea52f1c4e303436039" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfff75872dfe8430f3272db3d62f11891f60067d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0a34d86df10adcda042b0fe7505fccd407e4193" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d47841de5806c3a64445d4edf789e64584ee3b08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc740b4a1fd5c67bb98a4dcf2357f4fad57b4f8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4362ea9382188ba0fde91d642bf911f9c5574bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea7fe5c86751457b677b42ef45b80930330a7983" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eac4bdf756423f4f44982476689a95016cb219a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb6f1a8b6efa600888317392c3dcbc3b05966a8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1614c30adc99f0f11ab88742e75f5ebbcfdcad5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f292918fe0035979c28df241e52e45e9d32c478d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4aea3941961372f6f5a2b50d2057eb2cfcc3d2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/faed6eb771793490c34e1412fe3dcb78734b548e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb8f550cab1b2e92794c15b07af069eb7182f130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbc9d576b94a7949f82bb3cc39563c2c3b8c501e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdaf5e2ee2e241aea8689ae1055475f934ad583e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/shengsiyuan/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/shengsiyuan/NettyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$NettyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$NettyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyHttpServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyByteToLongDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyByteToLongDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyLongToByteEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyLongToByteEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/ClientBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/ClientBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/ServerBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/ServerBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminCglibService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminCglibService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceCglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceCglibProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceDynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceDynamicProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceInvocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceInvocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/CglibProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/CglibProxyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/StaticProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/StaticProxyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/ChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServerhandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo02/ByteBufTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo02/ByteBufTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/ChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServerhandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClinetHandler04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClinetHandler04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServerhandler04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServerhandler04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/buf/NettyByteBuffTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/buf/NettyByteBuffTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyByteToLongDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyByteToLongDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyLongToByteEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyLongToByteEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClientHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClientHandler01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServerHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServerHandler01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$StudentOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$StudentOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataBodyCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataBodyCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessageOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessageOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$StudentOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$StudentOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$WorkerOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$WorkerOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClientHandler02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClientHandler02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServerHandler02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServerHandler02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Door.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Door.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/DoorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/DoorListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClientHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClientHandler01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/BioBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/BioBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannelPutGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannelPutGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/MappedByteBufferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/MappedByteBufferTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ReadOnlyBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ReadOnlyBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ScatteringAndGatheringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ScatteringAndGatheringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServerhandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServer02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServerHandlerExecutePool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServerHandlerExecutePool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +317,34 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="276">
+              <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackEncode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +353,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServerhandler04.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackDecode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="894">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="246">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,19 +365,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guigu/nio/ReadOnlyBuffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="297">
+              <caret line="37" column="75" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="37" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/DynamicProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="160">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,89 +404,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/buffer/Unpooled.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="73" column="78" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+            <state relative-caret-position="264">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
-                <element signature="e#4148#4149#0" expanded="true" />
-                <element signature="e#4204#4205#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/buffer/UnpooledByteBufAllocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-              <folding>
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1947">
-              <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-              <folding>
-                <element signature="e#25067#25068#0" expanded="true" />
-                <element signature="e#25107#25108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/rtsp/RtspDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2112">
-              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-=======
->>>>>>> 329c98384422629526b3177853e677c491e699b4
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>the time server close</find>
-      <find>decode</find>
+      <find>解码器</find>
+      <find>==========</find>
+      <find>MsgPackDecode</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,63 +455,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo04/GroupChatServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo04/GroupChatServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo5/HeartBeatServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo5/HeartBeatServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo5/HeartBeatClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo5/HeartBeatClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo04/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo06/WSServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo06/WSServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo06/hello.html" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo07/proto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyLongToByteEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyByteToLongDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo08/MyClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MyClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MessageProtocol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MessageEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MessageDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MyServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MyServerHandler2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo09/MyClientHandler2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/ServerBootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/ClientBootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceInvocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceDynamicProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/DynamicProxyTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminCglibService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceCglibProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/action/demo11/CglibProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServerhandler04.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClinetHandler04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/TestUserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/PerformTestUserInfo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MessagePackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackDecode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackEncode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClient.java" />
       </list>
     </option>
-=======
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
->>>>>>> 329c98384422629526b3177853e677c491e699b4
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -229,23 +491,44 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +569,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="guigu" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="demo07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
@@ -296,74 +589,35 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="guigu" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="同步阻塞IO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
-=======
-  <component name="ProjectId" id="1fismuyZlAEEicZcW0GgHWKqWWO" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
->>>>>>> 329c98384422629526b3177853e677c491e699b4
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="ignore_missing_gitignore" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto" />
->>>>>>> 329c98384422629526b3177853e677c491e699b4
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto2" />
->>>>>>> 9d012c35b7d6fbd75236070c1741fe0a1c8d3085
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3873563" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guide/demo07" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\netty-study\src\main\java\netty\guigu\netty\proto2" />
-      <recent name="E:\code\netty-study\src\main\java\netty\guigu\netty\proto" />
-      <recent name="E:\code\netty-study\src\main\java\netty\shengsiyuan" />
-      <recent name="E:\project\netty-study\src\main\java\Netty\demo03" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="netty.guigu.netty.inbound" />
-      <recent name="netty.guigu.netty.chat" />
-      <recent name="netty.guigu.netty" />
-      <recent name="netty.guigu.zerocopy" />
-      <recent name="netty.guigu.nio" />
+      <recent name="netty.guide.demo05" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="netty.action.demo09" />
-      <recent name="Netty.demo01" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\netty-study\src\main\java\netty\guide\demo07" />
+      <recent name="E:\project\netty-study\src\main\java\netty\guide\demo06" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,13 +632,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
-    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.inbound.MyClient" />
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.EchoClient" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.inbound.*" />
+          <option name="PATTERN" value="netty.guide.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +646,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.inbound.MyServer" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.EchoServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.inbound.*" />
+          <option name="PATTERN" value="netty.guide.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +659,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto.NettyClient01" />
+    <configuration name="MessagePackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.MessagePackTest" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.proto.*" />
+          <option name="PATTERN" value="netty.guide.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,12 +672,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto2.NettyClient02" />
+    <configuration name="PerformTestUserInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.PerformTestUserInfo" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.proto2.*" />
+          <option name="PATTERN" value="netty.guide.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +685,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto2.NettyServer02" />
+    <configuration name="TestUserInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.TestUserInfo" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.proto2.*" />
+          <option name="PATTERN" value="netty.guide.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,84 +698,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.NettyClient01 (1)" />
-      <item itemvalue="Application.NettyServer02" />
-      <item itemvalue="Application.NettyClient02" />
-      <item itemvalue="Application.MyServer" />
-      <item itemvalue="Application.MyClient" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyClient" />
-        <item itemvalue="Application.MyServer" />
-        <item itemvalue="Application.NettyClient02" />
-        <item itemvalue="Application.NettyServer02" />
-        <item itemvalue="Application.NettyClient01 (1)" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.MessagePackTest" />
+        <item itemvalue="Application.PerformTestUserInfo" />
+        <item itemvalue="Application.TestUserInfo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SshConsoleOptionsProvider">
-    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09c23164-fda9-40a5-ba62-6af7ad471aa2" name="Default Changelist" comment="" />
-      <created>1596416909656</created>
+      <changelist id="da323fcc-3bd0-4e40-b862-19ac45c3cf85" name="Default Changelist" comment="" />
+      <created>1597281672371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596416909656</updated>
-      <workItem from="1596416915101" duration="9517000" />
-      <workItem from="1596503397155" duration="6283000" />
-      <workItem from="1596588403788" duration="3967000" />
-      <workItem from="1596675644695" duration="2823000" />
-<<<<<<< HEAD
-      <workItem from="1596680345259" duration="10278000" />
-      <workItem from="1596763055712" duration="3175000" />
-=======
-      <workItem from="1596680345259" duration="10192000" />
-      <workItem from="1596712412568" duration="4441000" />
-      <workItem from="1596806996040" duration="21000" />
-      <workItem from="1596847908414" duration="15047000" />
-      <workItem from="1596940071109" duration="13012000" />
-<<<<<<< HEAD
->>>>>>> 329c98384422629526b3177853e677c491e699b4
-=======
-      <workItem from="1597066691911" duration="2321000" />
-      <workItem from="1597154957487" duration="3192000" />
->>>>>>> 9d012c35b7d6fbd75236070c1741fe0a1c8d3085
+      <updated>1597281672371</updated>
+      <workItem from="1597281683546" duration="4142000" />
+      <workItem from="1597287625800" duration="9145000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ByteBufTest_SliceTest - 2020.08.04 at 15h 22m 48s.xml">
-      <configuration name="ByteBufTest.SliceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ByteBufTest_SliceTest - 2020.08.04 at 15h 23m 20s.xml">
-      <configuration name="ByteBufTest.SliceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ByteBufTest_getAndSet - 2020.08.04 at 15h 38m 43s.xml">
-      <configuration name="ByteBufTest.getAndSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ByteBufTest_getAndSet - 2020.08.04 at 15h 40m 01s.xml">
-      <configuration name="ByteBufTest.getAndSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ByteBufTest_readAndWrite - 2020.08.04 at 15h 42m 45s.xml">
-      <configuration name="ByteBufTest.readAndWrite" configurationId="JUnit" />
-    </history-entry>
-  </component>
-<<<<<<< HEAD
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36043000" />
+    <option name="totallyTimeSpent" value="13287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18943436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -530,29 +739,29 @@
       <window_info id="Alibaba Cloud Explorer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31630436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31413043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4379085" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46187365" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32934782" />
-      <window_info anchor="bottom" id="GenProtobuf" order="18" weight="0.32934782" />
+      <window_info anchor="bottom" id="GenProtobuf" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.21184632" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49675325" visible="true" weight="0.18463181" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1638207" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Word Book" order="5" sideWeight="0.5032467" side_tool="true" visible="true" weight="0.18463181" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Alibaba Function Compute" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -560,85 +769,36 @@
       <window_info anchor="right" id="RestServices" order="10" />
     </layout>
   </component>
-=======
->>>>>>> 329c98384422629526b3177853e677c491e699b4
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/同步阻塞IO/demo01/TimeServerhandler.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/Decoder.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/guigu/netty/buf/NettyByteBuffTest.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClient.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ChannelFuture.java</url>
-          <line>194</line>
-          <properties class="io.netty.channel.ChannelFuture" method="awaitUninterruptibly">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-<<<<<<< HEAD
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/MyClientHandler2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/MessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/MyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#765#1115#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/MyServerHandler2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/MyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="196">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/shengsiyuan/NettyServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/shengsiyuan/NettyServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo04/GroupChatClientChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -646,175 +806,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo09/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#1224#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClinetHandler04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="274" column="29" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1007#1500#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="236" column="28" lean-forward="true" selection-start-line="236" selection-start-column="28" selection-end-line="236" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="197">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/HelloService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="-200">
+          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/HelloServiceImpl.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="320">
+          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/util/concurrent/Callable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        <state relative-caret-position="495">
+          <caret line="127" column="39" lean-forward="true" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+          <folding>
+            <element signature="e#11566#11567#0" expanded="true" />
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47820">
+          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="355" column="31" selection-start-line="355" selection-start-column="31" selection-end-line="355" selection-end-column="31" />
+          <folding>
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8854#8855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="247" column="26" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="972" column="21" selection-start-line="972" selection-start-column="21" selection-end-line="972" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="1015" column="27" selection-start-line="1015" selection-start-column="27" selection-end-line="1015" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+          <folding>
+            <element signature="e#3620#3621#0" expanded="true" />
+            <element signature="e#3676#3677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ThreadPerChannelEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="64" />
+          <folding>
+            <element signature="e#2388#2389#0" expanded="true" />
+            <element signature="e#2434#2435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="71" />
+          <folding>
+            <element signature="e#1207#1749#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1278#1827#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/TestUserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/StaticProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/ClientBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo10/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1818#2261#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceDynamicProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="27" selection-start-line="19" selection-end-line="20" />
+        <state relative-caret-position="726">
+          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/DynamicProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="40" column="151" selection-start-line="40" selection-start-column="151" selection-end-line="40" selection-end-column="151" />
+        <state relative-caret-position="164">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/NewIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/OldIoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guigu/zerocopy/NewIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/PerformTestUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -823,245 +1050,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="301">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminCglibService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar!/org/msgpack/template/Templates.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="73">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/AdminServiceCglibProxy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/MessageToByteEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="400">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/MessagePackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/NettyServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo03/TimeServerhandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="197">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo07/test.proto">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo06/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackEncode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/DynamicProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo08/test.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo06/WSServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo05/HeartBeatClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo01/ChildChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/Decoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/action/demo11/CglibProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/mqtt/MqttCodecUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1798">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/handler/codec/protobuf/ProtobufDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/redis/RedisCodecUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/redis/RedisMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/handler/codec/redis/ArrayRedisMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2260">
-          <folding>
-            <element signature="e#0#2993#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClinetHandler04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/buffer/Unpooled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="73" column="78" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
-          <folding>
-            <element signature="e#4148#4149#0" expanded="true" />
-            <element signature="e#4204#4205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/buffer/UnpooledByteBufAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1947">
-          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-          <folding>
-            <element signature="e#25067#25068#0" expanded="true" />
-            <element signature="e#25107#25108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/rtsp/RtspDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="287">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServerhandler04.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="37" column="75" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="37" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guigu/nio/ReadOnlyBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo04/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
         </state>
       </provider>
     </entry>
   </component>
-=======
->>>>>>> 329c98384422629526b3177853e677c491e699b4
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -1078,11 +1205,10 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3873563" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1112,20 +1238,6 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>netty-study</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3873563" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1137,11 +1249,10 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: io.netty:netty-all:4.1.48.Final</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3873563" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
