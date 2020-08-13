@@ -19,7 +19,7 @@ public class MyClientHandler extends SimpleChannelInboundHandler<Long> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         // 客户端发送 long 类型数据
-        ctx.writeAndFlush(1234523236L);
+        ctx.channel().writeAndFlush(1234523236L);
     }
 
     @Override

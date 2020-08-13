@@ -38,10 +38,10 @@ public class EchoServer {
                             ch.pipeline().addLast("frameDecoder",new LengthFieldBasedFrameDecoder(65535,0,
                                     2,0,2));
                             ch.pipeline().addLast("msgpack decoder", new MsgPackDecode());
-                            ch.pipeline().addLast("frameEncoder",new LengthFieldPrepender(2));
-                            ch.pipeline().addLast("msgpack encoder", new MsgPackEncode());
-                            ch.pipeline().addLast(new EchoServerHandler());
+                           // ch.pipeline().addLast("frameEncoder",new LengthFieldPrepender(2));
 
+                            ch.pipeline().addLast(new EchoServerHandler());
+                            ch.pipeline().addLast("msgpack encoder", new MsgPackEncode());
                         }
                     });
             ChannelFuture sync = b.bind(port).sync();
