@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c23164-fda9-40a5-ba62-6af7ad471aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/buf/NettyByteBuffTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/chat/GroupChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/chat/GroupChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/chat/GroupChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/chat/GroupChatServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/NettyClient01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/NettyClientHandler01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/NettyServer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/NettyServerHandler01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/StudentProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto/Sutdent.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/Receive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/websocket/NettyWebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/websocket/NettyWebSocketServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/shengsiyuan/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyClient01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/NettyClient01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyClientHandler01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/NettyClientHandler01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyServer01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/NettyServer01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/NettyServerHandler01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/guigu/netty/socket/NettyServerHandler01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyClient01$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyClient01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyClientHandler01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyServer01$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyServer01$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyServer01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyServerHandler01$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/NettyServerHandler01.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,8 +330,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 =======
     <property name="ignore_missing_gitignore" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto" />
 >>>>>>> 329c98384422629526b3177853e677c491e699b4
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guigu/netty/proto2" />
+>>>>>>> 9d012c35b7d6fbd75236070c1741fe0a1c8d3085
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -368,16 +349,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\netty-study\src\main\java\netty\guigu\netty\proto2" />
       <recent name="E:\code\netty-study\src\main\java\netty\guigu\netty\proto" />
       <recent name="E:\code\netty-study\src\main\java\netty\shengsiyuan" />
       <recent name="E:\project\netty-study\src\main\java\Netty\demo03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.guigu.netty.inbound" />
       <recent name="netty.guigu.netty.chat" />
       <recent name="netty.guigu.netty" />
       <recent name="netty.guigu.zerocopy" />
       <recent name="netty.guigu.nio" />
-      <recent name="netty.action.demo09" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="netty.action.demo09" />
@@ -396,7 +378,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyClient01 (1)">
+  <component name="RunManager" selected="Application.MyClient">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.inbound.MyClient" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.guigu.netty.inbound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.inbound.MyServer" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.guigu.netty.inbound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NettyClient01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto.NettyClient01" />
       <module name="netty-study" />
@@ -410,12 +418,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.socket.NettyClient01" />
+    <configuration name="NettyClient02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto2.NettyClient02" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.socket.*" />
+          <option name="PATTERN" value="netty.guigu.netty.proto2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,38 +431,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto.NettyServer01" />
+    <configuration name="NettyServer02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.proto2.NettyServer02" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.proto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.socket.NettyServer01" />
-      <module name="netty-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyWebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guigu.netty.websocket.NettyWebSocketServer" />
-      <module name="netty-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.guigu.netty.websocket.*" />
+          <option name="PATTERN" value="netty.guigu.netty.proto2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NettyWebSocketServer" />
-      <item itemvalue="Application.NettyServer01" />
-      <item itemvalue="Application.NettyClient01" />
-      <item itemvalue="Application.NettyServer01 (1)" />
       <item itemvalue="Application.NettyClient01 (1)" />
+      <item itemvalue="Application.NettyServer02" />
+      <item itemvalue="Application.NettyClient02" />
+      <item itemvalue="Application.MyServer" />
+      <item itemvalue="Application.MyClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.NettyClient02" />
+        <item itemvalue="Application.NettyServer02" />
         <item itemvalue="Application.NettyClient01 (1)" />
-        <item itemvalue="Application.NettyServer01 (1)" />
-        <item itemvalue="Application.NettyClient01" />
-        <item itemvalue="Application.NettyServer01" />
-        <item itemvalue="Application.NettyWebSocketServer" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +487,12 @@
       <workItem from="1596806996040" duration="21000" />
       <workItem from="1596847908414" duration="15047000" />
       <workItem from="1596940071109" duration="13012000" />
+<<<<<<< HEAD
 >>>>>>> 329c98384422629526b3177853e677c491e699b4
+=======
+      <workItem from="1597066691911" duration="2321000" />
+      <workItem from="1597154957487" duration="3192000" />
+>>>>>>> 9d012c35b7d6fbd75236070c1741fe0a1c8d3085
     </task>
     <servers />
   </component>
@@ -609,13 +596,10 @@
           <line>25</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/ChannelHandlerContext.class</url>
-          <line>24</line>
-          <properties class="io.netty.channel.ChannelHandlerContext" method="fireChannelRegistered">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/netty/guigu/netty/inbound/MyClient.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ChannelFuture.java</url>
