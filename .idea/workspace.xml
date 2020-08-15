@@ -2,230 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/EventLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/EventLoopGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/MyChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/NioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/NioServer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo02/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo02/HandlerContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo02/MyHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo02/MyHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo02/PPLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/TcpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/TcpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/UnSafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/UnSafeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/EchoServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MessagePackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackDecode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/MsgPackEncode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/PerformTestUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/TestUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/guide/demo07/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo01/NettyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient$NettyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer$NettyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo02/NettyServerHandler2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/HttpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo03/MyHttpServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/GroupChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo04/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo04/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo05/HeartBeatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo06/WSServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyByteToLongDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyByteToLongDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyClientChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyLongToByteEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyLongToByteEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/MyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo08/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo08/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MessageProtocol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyClientHandler2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/MyServerHandler2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo09/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/ClientBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/ClientBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/HelloServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/NettyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo10/ServerBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo10/ServerBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminCglibService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminCglibService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceCglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceCglibProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceDynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceDynamicProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceInvocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceInvocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/AdminServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/CglibProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/CglibProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/DynamicProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/action/demo11/StaticProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/action/demo11/StaticProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/cto/UnSafeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/ChildChannelHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo01/TimeServerhandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo02/ByteBufTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo02/ByteBufTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/ChildChannelHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo03/TimeServerhandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClinetHandler04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeClinetHandler04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer$ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServerhandler04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo04/TimeServerhandler04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo05/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guide/demo06/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/bio/BioServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/buf/NettyByteBuffTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/buf/NettyByteBuffTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/chat/GroupChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyByteToLongDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyByteToLongDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyLongToByteEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyLongToByteEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/inbound/MyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClient01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClientHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyClientHandler01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServer01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServerHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/NettyServerHandler01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$StudentOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto$StudentOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto/StudentProto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataBodyCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataBodyCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage$DataType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessageOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$MyMessageOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$StudentOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$StudentOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$WorkerOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo$WorkerOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/MyDataInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClient02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClientHandler02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyClientHandler02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServer02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServerHandler02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/proto2/NettyServerHandler02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Door.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Door.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/DoorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/DoorListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClient01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClientHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyClientHandler01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServer01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/NettyServerHandler01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/socket/Receive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/netty/websocket/NettyWebSocketServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/BioBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/BioBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannel03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannelPutGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/FileNioChannelPutGet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/MappedByteBufferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/MappedByteBufferTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/NioServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ReadOnlyBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ReadOnlyBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ScatteringAndGatheringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/ScatteringAndGatheringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/nio/groupchat/GroupCharServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/NewIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/guigu/zerocopy/OldIoClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/shengsiyuan/NettyServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/shengsiyuan/NettyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/shengsiyuan/NettyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServerhandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo01/TimeServerhandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServer02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServerHandlerExecutePool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/同步阻塞IO/demo02/TimeServerHandlerExecutePool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/EventLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/EventLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/MyChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/MyChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/NioServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo01/NioServer2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -247,6 +39,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1g7dhHnICKIcZX3ljHzX1lpiuJO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -259,6 +52,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.cto.demo03" />
+      <recent name="netty.cto.demo02" />
       <recent name="netty.cto" />
     </key>
   </component>
@@ -274,7 +69,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NioServer2">
+  <component name="RunManager" selected="Application.ByteBufTest4">
+    <configuration name="ByteBufTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest2" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteBufTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest3" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteBufTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest4" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.cto.demo01.NioServer" />
       <module name="netty-study" />
@@ -303,6 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteBufTest4" />
+        <item itemvalue="Application.ByteBufTest3" />
+        <item itemvalue="Application.ByteBufTest2" />
         <item itemvalue="Application.NioServer2" />
         <item itemvalue="Application.NioServer" />
       </list>
@@ -318,7 +155,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597413835437</updated>
-      <workItem from="1597413856219" duration="5795000" />
+      <workItem from="1597413856219" duration="5963000" />
+      <workItem from="1597469707265" duration="3885000" />
+      <workItem from="1597473942679" duration="3675000" />
     </task>
     <servers />
   </component>
@@ -330,7 +169,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

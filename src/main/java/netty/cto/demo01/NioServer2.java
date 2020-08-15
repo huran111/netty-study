@@ -19,7 +19,7 @@ import java.util.Set;
 public class NioServer2 {
     public static void main(String[] args) throws IOException {
         final ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-        serverSocketChannel.bind(new InetSocketAddress(8888));
+        serverSocketChannel.bind(new InetSocketAddress(8899));
         //设置为非阻塞
         serverSocketChannel.configureBlocking(false);
         //创建一个事件查询器

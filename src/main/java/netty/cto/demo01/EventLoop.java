@@ -20,7 +20,7 @@ import java.util.concurrent.LinkedBlockingDeque;
  * @create: 2020-08-14 22:49
  */
 public class EventLoop implements Runnable {
-    private Selector selector;
+    public Selector selector;
     private Thread thread;
     private Queue<Runnable> taskQueue = new LinkedBlockingDeque<>();
 
@@ -72,11 +72,12 @@ public class EventLoop implements Runnable {
                         if (key.isReadable()) {
                             //读事件
                             myChannel.read(key);
+                            break;
                         }
                         //写事件
                         if (key.isWritable()) {
                             myChannel.write(key);
-
+                            break;
                         }
                     }
                 }
