@@ -26,6 +26,7 @@ public class ByteBufTest4 {
         System.out.println(slice.readByte());
         // slice.writeByte(555);//抛出异常
         //将slice 下标为0的设置为3 此时源ByteBuf 索引为2 的13 变为了3
+        //slice 不会增加源ByteBuf的 readIndex
         slice.setByte(0, 3);
         System.out.println(byteBuf.readByte());
         //再用源ByteBuf读取索引为2的字节应该为3
