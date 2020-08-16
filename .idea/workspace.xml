@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo04/DiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo04/DiscardServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo04/SecondServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/DiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/InboundAndOutBoundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/InboundHandlerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/InboundHandlerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/InboundHandlerC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/OutboundHandlerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo05/OutboundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/SecondServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/SecondServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DisCardTwoBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/SecondServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo03/ByteBufTest4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +42,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1g7dhHnICKIcZX3ljHzX1lpiuJO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,17 +52,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/cto/demo08" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.cto.demo06" />
       <recent name="netty.cto.demo05" />
       <recent name="netty.cto.demo04" />
       <recent name="netty.cto.demo03" />
       <recent name="netty.cto.demo02" />
-      <recent name="netty.cto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo08" />
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo07" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiscardServer (1)">
-    <configuration name="ByteBufTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest3" />
+  <component name="RunManager" selected="JUnit.TcpClient.test05">
+    <configuration name="DiscardServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.DiscardServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,65 +96,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteBufTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest4" />
+    <configuration name="TcpClient.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteBufTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo03.ByteBufTest5" />
+    <configuration name="TcpClient.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo03.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscardServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo05.DiscardServer" />
+    <configuration name="TcpClient.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo05.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo04.DiscardServer" />
+    <configuration name="TcpClient.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo04.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiscardServer (1)" />
-        <item itemvalue="Application.DiscardServer" />
-        <item itemvalue="Application.ByteBufTest5" />
-        <item itemvalue="Application.ByteBufTest4" />
-        <item itemvalue="Application.ByteBufTest3" />
+        <item itemvalue="JUnit.TcpClient.test05" />
+        <item itemvalue="Application.DiscardServer (3)" />
+        <item itemvalue="JUnit.TcpClient.test04" />
+        <item itemvalue="JUnit.TcpClient.test03" />
+        <item itemvalue="JUnit.TcpClient.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +185,8 @@
       <workItem from="1597473942679" duration="7713000" />
       <workItem from="1597485418660" duration="1417000" />
       <workItem from="1597487297443" duration="276000" />
+      <workItem from="1597543699463" duration="4531000" />
+      <workItem from="1597575707270" duration="4834000" />
     </task>
     <servers />
   </component>
@@ -192,18 +210,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java</url>
-          <line>42</line>
-          <properties class="io.netty.channel.ChannelOutboundHandler" method="connect">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="fireChannelRead" />
