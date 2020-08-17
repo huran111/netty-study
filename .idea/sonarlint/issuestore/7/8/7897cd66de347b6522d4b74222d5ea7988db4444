@@ -1,0 +1,13 @@
+
+c
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¡„¶É
+f
+java:S2095"KUse try-with-resources or close this "SocketChannel" in a "finally" clause.(–¦ªÐøÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'java.net.ServerSocket'.(ÐúÙžÿÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.nio.ByteBuffer'.(¿¢×±úÿÿÿÿ
+]
+java:S1128	"BRemove this unused import 'java.nio.channels.ServerSocketChannel'.(¬½¸éúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆô¹û
+Q	java:S125"<This block of commented-out lines of code should be removed.(¿—Š¿

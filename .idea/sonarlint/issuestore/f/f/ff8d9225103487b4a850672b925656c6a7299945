@@ -1,0 +1,8 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ˆ©„şÿÿÿÿ
+R
+java:S1128"5Remove this unused import 'io.netty.buffer.Unpooled'.(ÏÁ¤ê8¸èÂ®¾.
+Q
+java:S1128"4Remove this unused import 'io.netty.buffer.ByteBuf'.(¬¶ç›8¸èÂ®¾.
+p
+java:S1128"NRemove this unused import 'io.netty.handler.codec.DelimiterBasedFrameDecoder'.(¦¯éòùÿÿÿÿ8“ªÃ®¾.
