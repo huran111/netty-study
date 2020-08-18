@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="da323fcc-3bd0-4e40-b862-19ac45c3cf85" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo08/Header.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo08/MarshallingEncoder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo08/NettyMessage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo08/NettyMessageEncoder.java" afterDir="false" />
+=======
+    <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/SecondServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/SecondServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo07/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DisCardTwoBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/SecondServerHandler.java" afterDir="false" />
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -163,6 +175,13 @@
         </entry>
       </file>
     </leaf>
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="netty-study" />
+    <favorites_list name="onUnhandledInboundMessage">
+      <favorite_root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,20 +190,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>解码器</find>
-      <find>==========</find>
-      <find>MsgPackDecode</find>
-      <find>next</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -218,43 +227,19 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/src/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\src\apache-maven-3.3.9\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="netty-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -344,26 +329,31 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1g7dhHnICKIcZX3ljHzX1lpiuJO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/guide/demo07" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/cto/demo08" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="netty.guide.demo05" />
+      <recent name="netty.cto.demo06" />
+      <recent name="netty.cto.demo05" />
+      <recent name="netty.cto.demo04" />
+      <recent name="netty.cto.demo03" />
+      <recent name="netty.cto.demo02" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\netty-study\src\main\java\netty\guide\demo07" />
-      <recent name="E:\project\netty-study\src\main\java\netty\guide\demo06" />
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo08" />
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo07" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,13 +368,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.action.demo08.Client" />
+  <component name="RunManager" selected="JUnit.TcpClient.test05">
+    <configuration name="DiscardServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.DiscardServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.action.demo08.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,65 +382,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.EchoClient" />
+    <configuration name="TcpClient.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guide.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.EchoServer" />
+    <configuration name="TcpClient.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guide.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessagePackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.guide.demo07.MessagePackTest" />
+    <configuration name="TcpClient.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.guide.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.action.demo08.Server" />
+    <configuration name="TcpClient.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.action.demo08.*" />
+          <option name="PATTERN" value="netty.cto.demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.MessagePackTest" />
+        <item itemvalue="JUnit.TcpClient.test05" />
+        <item itemvalue="Application.DiscardServer (3)" />
+        <item itemvalue="JUnit.TcpClient.test04" />
+        <item itemvalue="JUnit.TcpClient.test03" />
+        <item itemvalue="JUnit.TcpClient.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -459,10 +461,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="da323fcc-3bd0-4e40-b862-19ac45c3cf85" name="Default Changelist" comment="" />
-      <created>1597281672371</created>
+      <changelist id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="" />
+      <created>1597413835437</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1597281672371</updated>
       <workItem from="1597281683546" duration="4142000" />
       <workItem from="1597287625800" duration="14424000" />
@@ -515,69 +518,36 @@
       <window_info anchor="right" id="RestServices" order="10" />
     </layout>
   </component>
+=======
+      <updated>1597413835437</updated>
+      <workItem from="1597413856219" duration="5963000" />
+      <workItem from="1597469707265" duration="3885000" />
+      <workItem from="1597473942679" duration="7713000" />
+      <workItem from="1597485418660" duration="1417000" />
+      <workItem from="1597487297443" duration="276000" />
+      <workItem from="1597543699463" duration="4531000" />
+      <workItem from="1597575707270" duration="4834000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/action/demo08/MyLongToByteEncoder.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/action/demo08/MyByteToLongDecoder.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/action/demo08/MyClientHandler.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
-          <line>1024</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
-          <line>807</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
-          <line>758</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
-          <line>757</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
-          <line>783</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
-          <line>921</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/guide/demo05/EchoClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1039,78 +1009,16 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+>>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>netty-study</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="fireChannelRead" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
