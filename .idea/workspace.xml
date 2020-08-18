@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/guide/demo08/NettyMessageEncoder.java" afterDir="false" />
 =======
     <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/DiscardServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/SecondServerHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo06/TcpClient.java" afterDir="false" />
@@ -19,7 +20,18 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DiscardServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/SecondServerHandler.java" afterDir="false" />
 >>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo09/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo09/SecondServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ClientMsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/User.java" afterDir="false" />
+>>>>>>> 7e52327a7fdd0834ad4287391aecc68fc586458f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/DiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/SecondServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo08/SecondServerHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,20 +350,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/cto/demo08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/netty/cto/demo09" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.cto.demo10" />
       <recent name="netty.cto.demo06" />
       <recent name="netty.cto.demo05" />
       <recent name="netty.cto.demo04" />
       <recent name="netty.cto.demo03" />
-      <recent name="netty.cto.demo02" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo09" />
       <recent name="E:\code\netty-study\src\main\java\netty\cto\demo08" />
       <recent name="E:\code\netty-study\src\main\java\netty\cto\demo07" />
     </key>
@@ -368,13 +381,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TcpClient.test05">
-    <configuration name="DiscardServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.DiscardServer" />
+  <component name="RunManager" selected="Application.RpcClient">
+    <configuration name="DiscardServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo09.DiscardServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,50 +395,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpClient.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo08.DiscardServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpClient.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcClient" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpClient.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcServer" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.demo07.*" />
+          <option name="PATTERN" value="netty.cto.demo10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty.cto.demo07" />
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo07.TcpClient" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RpcClient" />
+        <item itemvalue="Application.RpcServer" />
+        <item itemvalue="Application.DiscardServer (1)" />
+        <item itemvalue="Application.DiscardServer" />
         <item itemvalue="JUnit.TcpClient.test05" />
-        <item itemvalue="Application.DiscardServer (3)" />
-        <item itemvalue="JUnit.TcpClient.test04" />
-        <item itemvalue="JUnit.TcpClient.test03" />
-        <item itemvalue="JUnit.TcpClient.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -527,6 +531,7 @@
       <workItem from="1597487297443" duration="276000" />
       <workItem from="1597543699463" duration="4531000" />
       <workItem from="1597575707270" duration="4834000" />
+      <workItem from="1597672282612" duration="4432000" />
     </task>
     <servers />
   </component>
@@ -1015,6 +1020,50 @@
 >>>>>>> a4381a0dc6d19908973e22ff49ef550132f57150
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java</url>
+          <line>497</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/FixedLengthFrameDecoder.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/FixedLengthFrameDecoder.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="fireChannelRead" />

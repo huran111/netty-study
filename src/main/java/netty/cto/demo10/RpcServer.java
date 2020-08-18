@@ -1,4 +1,4 @@
-package netty.cto.demo08;
+package netty.cto.demo10;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -9,21 +9,24 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.FixedLengthFrameDecoder;
-import io.netty.handler.codec.LineBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
-import io.netty.util.CharsetUtil;
+import io.netty.handler.codec.serialization.ClassResolver;
+import io.netty.handler.codec.serialization.ClassResolvers;
+import io.netty.handler.codec.serialization.ObjectDecoder;
+import io.netty.handler.codec.serialization.ObjectEncoder;
+import netty.cto.demo01.EventLoop;
+import netty.cto.demo08.DiscardServer;
+import netty.cto.demo08.SecondServerHandler;
 
 /**
  * @program: netty-study
  * @description:
  * @author: HuRan
- * @create: 2020-08-15 16:43
+ * @create: 2020-08-17 22:55
  */
-public class DiscardServer {
+public class RpcServer {
     private int port;
 
-    public DiscardServer(int port) {
+    public RpcServer(int port) {
         this.port = port;
     }
 
@@ -38,16 +41,15 @@ public class DiscardServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() { // (4)
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new FixedLengthFrameDecoder(3));
-                          //  ch.pipeline().addLast(new StringDecoder(CharsetUtil.UTF_8));
-                         //   ch.pipeline().addLast(new StringEncoder(CharsetUtil.UTF_8));
-                            ch.pipeline().addLast("1", new SecondServerHandler());
 
+                            ch.pipeline().addLast(new ObjectEncoder());      ;
+                         ch.pipeline().addLast(new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.weakCachingResolver(null)));
+
+            ch.pipeline().addLast(new ServerMsgHandler());
 
                         }
-                    })
-                    .option(ChannelOption.SO_BACKLOG, 128)          // (5)
-                    .childOption(ChannelOption.SO_KEEPALIVE, true); // (6)
+                    });
+
 
             // Bind and start to accept incoming connections.
             ChannelFuture f = b.bind(port).sync(); // (7)
@@ -68,6 +70,6 @@ public class DiscardServer {
             port = Integer.parseInt(args[0]);
         }
 
-        new DiscardServer(port).run();
+        new RpcServer(port).run();
     }
 }
