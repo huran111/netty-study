@@ -1,7 +1,0 @@
-
-]	java:S125)"<This block of commented-out lines of code should be removed.(ÕÍ£×üÿÿÿÿ8µ¦ã·¾.
-[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(†Íˆˆ
-j
-java:S1128"HRemove this unused import 'io.netty.handler.codec.string.StringDecoder'.(ºôÅ«úÿÿÿÿ8¯±ï´¾.
-m
-java:S1128"KRemove this unused import 'io.netty.handler.codec.FixedLengthFrameDecoder'.(åß€ªÿÿÿÿÿ8¯±ï´¾.

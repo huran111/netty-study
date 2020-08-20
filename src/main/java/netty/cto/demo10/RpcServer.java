@@ -41,11 +41,9 @@ public class RpcServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() { // (4)
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-
-                            ch.pipeline().addLast(new ObjectEncoder());      ;
-                         ch.pipeline().addLast(new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.weakCachingResolver(null)));
-
-            ch.pipeline().addLast(new ServerMsgHandler());
+                          //  ch.pipeline().addLast(new ObjectEncoder());
+                            //ch.pipeline().addLast(new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.weakCachingResolver(null)));
+                            ch.pipeline().addLast(new ServerMsgHandler());
 
                         }
                     });

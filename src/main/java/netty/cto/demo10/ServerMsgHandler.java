@@ -13,10 +13,7 @@ public class ServerMsgHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         System.out.println(msg.toString());
-        User user= (User) msg;
-        user.setAge(user.getAge()+18);
-        System.out.println(user.toString());
-        ctx.channel().writeAndFlush(user);
+
     }
 
     @Override
