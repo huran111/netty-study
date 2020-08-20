@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ca0f9bf5-0722-45b1-8371-d9793b46b143" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/006a55a36e1289574fc2c78ee08afb57bec8d026" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30caf89aa44afd13bdc9ba02eb330b9dcfbc8cd4" beforeDir="false" />
@@ -32,6 +33,27 @@
       <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/TestUserInfo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/UserInfo.class" beforeDir="false" />
+=======
+    <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/ClientMsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/ServerMsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/SyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/HandShakeEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsBinaryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsTextHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -194,6 +216,23 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.cto.websocket" />
+      <recent name="netty.cto.rpc" />
+      <recent name="netty.cto.demo10" />
+      <recent name="netty.cto.demo06" />
+      <recent name="netty.cto.demo05" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo09" />
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo08" />
+      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo07" />
+    </key>
+  </component>
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -206,13 +245,45 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.RpcClient">
+    <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcClient" />
+=======
+  <component name="RunManager" selected="Application.WebSocketServer">
+    <configuration name="RpcClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.rpc.RpcClient" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcClient" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netty.cto.demo10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.rpc.RpcServer" />
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.rpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,10 +304,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.cto.websocket.WebSocketServer" />
+      <module name="netty-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.cto.websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebSocketServer" />
         <item itemvalue="Application.RpcClient" />
         <item itemvalue="Application.RpcServer" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Application.RpcClient (1)" />
+        <item itemvalue="Application.RpcServer (1)" />
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
       </list>
     </recent_temporary>
   </component>
@@ -249,8 +342,22 @@
       <created>1597712694920</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1597712694920</updated>
       <workItem from="1597712696203" duration="1785000" />
+=======
+      <updated>1597413835437</updated>
+      <workItem from="1597413856219" duration="5963000" />
+      <workItem from="1597469707265" duration="3885000" />
+      <workItem from="1597473942679" duration="7713000" />
+      <workItem from="1597485418660" duration="1417000" />
+      <workItem from="1597487297443" duration="276000" />
+      <workItem from="1597543699463" duration="4531000" />
+      <workItem from="1597575707270" duration="4834000" />
+      <workItem from="1597672282612" duration="4432000" />
+      <workItem from="1597757277116" duration="5173000" />
+      <workItem from="1597840191586" duration="5420000" />
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
     </task>
     <servers />
   </component>
@@ -303,6 +410,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -341,5 +449,22 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/netty/cto/rpc/SyncResponse.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="fireChannelRead" />
+      </configuration>
+    </watches-manager>
+>>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
   </component>
 </project>
