@@ -1,0 +1,6 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óú¨£8ÇŸÓ÷Á.
+g	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(€ûàÅÿÿÿÿÿ8ÈèÕ÷Á.
+W
+java:S1874,":Remove this use of "Log4JLoggerFactory"; it is deprecated.(É¦¬š8¼”Ö÷Á.

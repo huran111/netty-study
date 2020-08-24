@@ -1,59 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="ca0f9bf5-0722-45b1-8371-d9793b46b143" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/006a55a36e1289574fc2c78ee08afb57bec8d026" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30caf89aa44afd13bdc9ba02eb330b9dcfbc8cd4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46336f3bd1db378f5ecabd4277c0f687fc1cf2dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f901332cd0b0cbf5951d30debc6e37d6fe4e387" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/787840aea89a44c95a60eee3e3d7e5f876181427" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85754d57208cda4c93108c2e76e6ee6ea66b94d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b76be2768bc86dab5a7844f3876cd26bdc99552" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeb293e708391958649fcd14f9e71b69577372c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0b555c93eeb714f5d56f0867f327917096999fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3e6a01c9bd0bb80247006709dfac52f36592883" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe781f48adf8a3a6e93e2b902c43ecb3e31169bd" beforeDir="false" />
+    <list default="true" id="28b7ca92-a46d-4e2b-8141-62c1fd79e7aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_msgpack_msgpack_0_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/protobuf/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/mqtt/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/netty-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/netty-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/022dc081e903f9db9da71d0ce084853fc1569e0d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/022dc081e903f9db9da71d0ce084853fc1569e0d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02903ebd122a0c493ac02f2323d6f57d2d8d7aa3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02903ebd122a0c493ac02f2323d6f57d2d8d7aa3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d02b1a41abe6bc86d63e680a6ba6943a88eeaaf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d02b1a41abe6bc86d63e680a6ba6943a88eeaaf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty-study.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/netty-study.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/EchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/MessagePackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/MsgPackDecode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/MsgPackEncode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/PerformTestUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/TestUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/guide/demo07/UserInfo.class" beforeDir="false" />
-=======
-    <list default="true" id="1ba0d8d0-82b8-4e59-94ce-a2ceedfaabd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/ClientMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/MyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/MyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServiceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/RpcUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/ServerMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/rpc/SyncResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/HandShakeEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsBinaryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/cto/websocket/WsTextHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,48 +31,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/ClientMsgHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/mqtt/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="1092">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#473#482#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/internal/logging/InternalLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="231">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,14 +78,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/cto/demo10/ClientMsgHandler.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/mqtt/Server.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -182,23 +139,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="cto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="cto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="mqtt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,27 +153,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3873563" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-<<<<<<< HEAD
-=======
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="netty.cto.websocket" />
-      <recent name="netty.cto.rpc" />
-      <recent name="netty.cto.demo10" />
-      <recent name="netty.cto.demo06" />
-      <recent name="netty.cto.demo05" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo09" />
-      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo08" />
-      <recent name="E:\code\netty-study\src\main\java\netty\cto\demo07" />
-    </key>
-  </component>
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -245,52 +172,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.RpcClient">
-    <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcClient" />
-=======
-  <component name="RunManager" selected="Application.WebSocketServer">
-    <configuration name="RpcClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.rpc.RpcClient" />
-      <module name="netty-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.cto.rpc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcClient" />
-      <module name="netty-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.cto.demo10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RpcServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.rpc.RpcServer" />
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
-      <module name="netty-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.cto.rpc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Server">
     <configuration name="RpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.cto.demo10.RpcServer" />
       <module name="netty-study" />
@@ -304,14 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-=======
-    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.cto.websocket.WebSocketServer" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.mqtt.Server" />
       <module name="netty-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.cto.websocket.*" />
+          <option name="PATTERN" value="netty.mqtt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,17 +199,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebSocketServer" />
-        <item itemvalue="Application.RpcClient" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.RpcServer" />
-<<<<<<< HEAD
-=======
-        <item itemvalue="Application.RpcClient (1)" />
-        <item itemvalue="Application.RpcServer (1)" />
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
       </list>
     </recent_temporary>
   </component>
@@ -338,34 +211,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca0f9bf5-0722-45b1-8371-d9793b46b143" name="Default Changelist" comment="" />
-      <created>1597712694920</created>
+      <changelist id="28b7ca92-a46d-4e2b-8141-62c1fd79e7aa" name="Default Changelist" comment="" />
+      <created>1598246304962</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1597712694920</updated>
-      <workItem from="1597712696203" duration="1785000" />
-=======
-      <updated>1597413835437</updated>
-      <workItem from="1597413856219" duration="5963000" />
-      <workItem from="1597469707265" duration="3885000" />
-      <workItem from="1597473942679" duration="7713000" />
-      <workItem from="1597485418660" duration="1417000" />
-      <workItem from="1597487297443" duration="276000" />
-      <workItem from="1597543699463" duration="4531000" />
-      <workItem from="1597575707270" duration="4834000" />
-      <workItem from="1597672282612" duration="4432000" />
-      <workItem from="1597757277116" duration="5173000" />
-      <workItem from="1597840191586" duration="5420000" />
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
+      <updated>1598246304962</updated>
+      <workItem from="1598246306136" duration="1555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1785000" />
+    <option name="totallyTimeSpent" value="1555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
@@ -373,10 +232,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Alibaba Cloud Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GenProtobuf" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" />
@@ -389,7 +248,7 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32570806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,61 +269,113 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="297">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/ServerMsgHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final-sources.jar!/io/netty/util/internal/logging/InternalLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="231">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/RpcClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/mqtt/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        <state relative-caret-position="1092">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#473#482#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/cto/demo10/ClientMsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-=======
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/cto/rpc/SyncResponse.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="fireChannelRead" />
-      </configuration>
-    </watches-manager>
->>>>>>> 76b38e8c0c445ee6550d21db5261794bcce53696
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>netty-study</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3873563" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
